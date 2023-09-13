@@ -75,7 +75,7 @@ def predict_plant(model,imgdata):
         labels = pickle.load(lb)
 
     loaded_model = model
-    loaded_model.load_state_dict(torch.load("model_files/model.pth"))
+    loaded_model.load_state_dict(torch.load("model.pth"))
     loaded_model.eval()
 
     # Converting Base64 string to Image
