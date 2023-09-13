@@ -1,13 +1,8 @@
 torch
-
 numpy
 pandas
 matplotlib
-pandas
-
-torch
 torchvision
-numpy
 flask
 seaborn
 gunicorn
